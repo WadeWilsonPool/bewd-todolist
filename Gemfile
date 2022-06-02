@@ -44,6 +44,9 @@ gem 'bootsnap', '>= 1.10.3', require: false
 
 gem 'rails_admin', '~> 2.0'
 
+# Bundler
+gem 'bundler', '>=1.15.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', '~> 11.1.3', platforms: [:mri, :mingw, :x64_mingw]
@@ -70,5 +73,5 @@ end
 
 group :production do
   # Use pg as the database for Active Record
-  # gem 'pg', '~> 1.3.1'
+    gem 'pg', '~> 1.3.1'
 end
